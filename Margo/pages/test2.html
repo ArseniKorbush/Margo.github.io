@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест на выявление компьютерной зависимости</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Тест на выявление компьютерной зависимости</h1>
+    <h3>(составители А.Р. Шакурова, А.Р. Дроздикова-Зарипова)
+    </h3>
+    <form id="computerAddictionTest">
+        <ol>
+            <li>
+                <label for="question1">1. Как часто Вы замечаете свои слова: «еще пару минут...», когда находитесь за
+                    компьютером?</label>
+                <input type="radio" name="question1" value="0"> Никогда
+                <input type="radio" name="question1" value="1"> Редко
+                <input type="radio" name="question1" value="2"> Часто
+                <input type="radio" name="question1" value="3"> Очень часто
+                <input type="radio" name="question1" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question2">2. Как часто Вы забывали о своих домашних обязанностях, об учебе, встречах и
+                    договоренностях, чтобы провести больше времени за компьютером?</label>
+                <input type="radio" name="question2" value="0"> Никогда
+                <input type="radio" name="question2" value="1"> Редко
+                <input type="radio" name="question2" value="2"> Часто
+                <input type="radio" name="question2" value="3"> Очень часто
+                <input type="radio" name="question2" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question3">3. Часто ли Вы регистрируетесь и участвуете в форумах, чатах, социальных
+                    сетях?</label>
+                <input type="radio" name="question3" value="0"> Никогда
+                <input type="radio" name="question3" value="1"> Редко
+                <input type="radio" name="question3" value="2"> Часто
+                <input type="radio" name="question3" value="3"> Очень часто
+                <input type="radio" name="question3" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question4">4. Как часто Вы знакомитесь в Интернете или компьютерных салонах?</label>
+                <input type="radio" name="question4" value="0"> Никогда
+                <input type="radio" name="question4" value="1"> Редко
+                <input type="radio" name="question4" value="2"> Часто
+                <input type="radio" name="question4" value="3"> Очень часто
+                <input type="radio" name="question4" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question5">5. Часто ли Вы чувствуете себя удачливее, интереснее, находчивее, когда работаете
+                    на компьютере?</label>
+                <input type="radio" name="question5" value="0"> Никогда
+                <input type="radio" name="question5" value="1"> Редко
+                <input type="radio" name="question5" value="2"> Часто
+                <input type="radio" name="question5" value="3"> Очень часто
+                <input type="radio" name="question5" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question6">6. Как часто Вы проверяете электронную почту, прежде чем заняться работой или
+                    учебой на компьютере?</label>
+                <input type="radio" name="question6" value="0"> Никогда
+                <input type="radio" name="question6" value="1"> Редко
+                <input type="radio" name="question6" value="2"> Часто
+                <input type="radio" name="question6" value="3"> Очень часто
+                <input type="radio" name="question6" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question7">7. Часто ли Вы обсуждаете возможности компьютера со своими знакомыми, пытаетесь
+                    узнать больше о компьютерной технике?</label>
+                <input type="radio" name="question7" value="0"> Никогда
+                <input type="radio" name="question7" value="1"> Редко
+                <input type="radio" name="question7" value="2"> Часто
+                <input type="radio" name="question7" value="3"> Очень часто
+                <input type="radio" name="question7" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question8">8. Как часто Вы не поддерживаете разговор или скрываете, если Вас спрашивают о
+                    том, что Вы делали в Интернете?</label>
+                <input type="radio" name="question8" value="0"> Никогда
+                <input type="radio" name="question8" value="1"> Редко
+                <input type="radio" name="question8" value="2"> Часто
+                <input type="radio" name="question8" value="3"> Очень часто
+                <input type="radio" name="question8" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question9">9. Часто ли работа на компьютере помогает Вам забыть о неприятностях?</label>
+                <input type="radio" name="question9" value="0"> Никогда
+                <input type="radio" name="question9" value="1"> Редко
+                <input type="radio" name="question9" value="2"> Часто
+                <input type="radio" name="question9" value="3"> Очень часто
+                <input type="radio" name="question9" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question10">10. Вы чувствуете приятное предвкушение от предстоящего выхода в сеть?</label>
+                <input type="radio" name="question10" value="0"> Никогда
+                <input type="radio" name="question10" value="1"> Редко
+                <input type="radio" name="question10" value="2"> Часто
+                <input type="radio" name="question10" value="3"> Очень часто
+                <input type="radio" name="question10" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question11">11. Часто ли Вы засиживаетесь за компьютером так, что не успеваете помыться,
+                    поесть, выспаться?</label>
+                <input type="radio" name="question11" value="0"> Никогда
+                <input type="radio" name="question11" value="1"> Редко
+                <input type="radio" name="question11" value="2"> Часто
+                <input type="radio" name="question11" value="3"> Очень часто
+                <input type="radio" name="question11" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question12">12. Как часто Вы раздражаетесь, если что-то отрывает Вас от компьютерной
+                    игры?</label>
+                <input type="radio" name="question12" value="0"> Никогда
+                <input type="radio" name="question12" value="1"> Редко
+                <input type="radio" name="question12" value="2"> Часто
+                <input type="radio" name="question12" value="3"> Очень часто
+                <input type="radio" name="question12" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question13">13. Часто ли Вы специально начинаете играть в игру или серфинговать в Интернете,
+                    чтобы справиться с неприятными мыслями или со стрессом?</label>
+                <input type="radio" name="question13" value="0"> Никогда
+                <input type="radio" name="question13" value="1"> Редко
+                <input type="radio" name="question13" value="2"> Часто
+                <input type="radio" name="question13" value="3"> Очень часто
+                <input type="radio" name="question13" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question14">14. Бывает ли такое чувство, что Вы поглощены Интернетом, когда не находитесь в
+                    сети, или воображаете, что Вы там будете делать?</label>
+                <input type="radio" name="question14" value="0"> Никогда
+                <input type="radio" name="question14" value="1"> Редко
+                <input type="radio" name="question14" value="2"> Часто
+                <input type="radio" name="question14" value="3"> Очень часто
+                <input type="radio" name="question14" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question15">15. Как часто Вы обнаруживаете, что сидите за компьютером дольше, чем
+                    планировали?</label>
+                <input type="radio" name="question15" value="0"> Никогда
+                <input type="radio" name="question15" value="1"> Редко
+                <input type="radio" name="question15" value="2"> Часто
+                <input type="radio" name="question15" value="3"> Очень часто
+                <input type="radio" name="question15" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question16">16. Часто ли у Вас болит голова или кисти рук, возникает сухость слизистой
+                    оболочки глаз?</label>
+                <input type="radio" name="question16" value="0"> Никогда
+                <input type="radio" name="question16" value="1"> Редко
+                <input type="radio" name="question16" value="2"> Часто
+                <input type="radio" name="question16" value="3"> Очень часто
+                <input type="radio" name="question16" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question17">17. Как часто Вы пытаетесь скрыть количество времени пребывания в сети?</label>
+                <input type="radio" name="question17" value="0"> Никогда
+                <input type="radio" name="question17" value="1"> Редко
+                <input type="radio" name="question17" value="2"> Часто
+                <input type="radio" name="question17" value="3"> Очень часто
+                <input type="radio" name="question17" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question18">18. Часто ли Вы играете в ролевые компьютерные игры?</label>
+                <input type="radio" name="question18" value="0"> Никогда
+                <input type="radio" name="question18" value="1"> Редко
+                <input type="radio" name="question18" value="2"> Часто
+                <input type="radio" name="question18" value="3"> Очень часто
+                <input type="radio" name="question18" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question19">19. Как часто Вы чувствуете подавленность, плохое настроение, нервничаете, что
+                    вскоре исчезает, стоит Вам сесть за компьютер?</label>
+                <input type="radio" name="question19" value="0"> Никогда
+                <input type="radio" name="question19" value="1"> Редко
+                <input type="radio" name="question19" value="2"> Часто
+                <input type="radio" name="question19" value="3"> Очень часто
+                <input type="radio" name="question19" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question20">20. Часто ли компьютерные игры бывают действительно захватывающими, как
+                    настоящие события?</label>
+                <input type="radio" name="question20" value="0"> Никогда
+                <input type="radio" name="question20" value="1"> Редко
+                <input type="radio" name="question20" value="2"> Часто
+                <input type="radio" name="question20" value="3"> Очень часто
+                <input type="radio" name="question20" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question21">21. Часто ли Вы замечаете, что работа за своим компьютером удается Вам лучше,
+                    чем за чужим?</label>
+                <input type="radio" name="question21" value="0"> Никогда
+                <input type="radio" name="question21" value="1"> Редко
+                <input type="radio" name="question21" value="2"> Часто
+                <input type="radio" name="question21" value="3"> Очень часто
+                <input type="radio" name="question21" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question22">22. Часто ли пьете или едите что-нибудь во время работы на компьютере?</label>
+                <input type="radio" name="question22" value="0"> Никогда
+                <input type="radio" name="question22" value="1"> Редко
+                <input type="radio" name="question22" value="2"> Часто
+                <input type="radio" name="question22" value="3"> Очень часто
+                <input type="radio" name="question22" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question23">23. Вы заранее думаете об компьютерных играх, часто вспоминаете предыдущие этапы
+                    игры, предвкушаете последующие?</label>
+                <input type="radio" name="question23" value="0"> Никогда
+                <input type="radio" name="question23" value="1"> Редко
+                <input type="radio" name="question23" value="2"> Часто
+                <input type="radio" name="question23" value="3"> Очень часто
+                <input type="radio" name="question23" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question24">24. Часто ли Вы заходите в Интернет, играете в компьютерные игры или работаете
+                    на компьютере, чтобы занять свободное время?</label>
+                <input type="radio" name="question24" value="0"> Никогда
+                <input type="radio" name="question24" value="1"> Редко
+                <input type="radio" name="question24" value="2"> Часто
+                <input type="radio" name="question24" value="3"> Очень часто
+                <input type="radio" name="question24" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question25">25. Как часто Вы теряете сон, когда поздно сидите в Интернете?</label>
+                <input type="radio" name="question25" value="0"> Никогда
+                <input type="radio" name="question25" value="1"> Редко
+                <input type="radio" name="question25" value="2"> Часто
+                <input type="radio" name="question25" value="3"> Очень часто
+                <input type="radio" name="question25" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question26">26. Часто ли Вы выясняете отношения со знакомыми с помощью переписки в
+                    социальной сети или через электронную почту?</label>
+                <input type="radio" name="question26" value="0"> Никогда
+                <input type="radio" name="question26" value="1"> Редко
+                <input type="radio" name="question26" value="2"> Часто
+                <input type="radio" name="question26" value="3"> Очень часто
+                <input type="radio" name="question26" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question27">27. Часто ли Вы предпочитаете развлечения в Интернете общению с друзьями,
+                    семьей?</label>
+                <input type="radio" name="question27" value="0"> Никогда
+                <input type="radio" name="question27" value="1"> Редко
+                <input type="radio" name="question27" value="2"> Часто
+                <input type="radio" name="question27" value="3"> Очень часто
+                <input type="radio" name="question27" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question28">28. Считаете ли Вы, что покупки через Интернет выгоднее?</label>
+                <input type="radio" name="question28" value="0"> Никогда
+                <input type="radio" name="question28" value="1"> Редко
+                <input type="radio" name="question28" value="2"> Часто
+                <input type="radio" name="question28" value="3"> Очень часто
+                <input type="radio" name="question28" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question29">29. Часто ли вы обращаетесь к компьютеру по прозвищу или «уговариваете» его
+                    работать быстрее и лучше?</label>
+                <input type="radio" name="question29" value="0"> Никогда
+                <input type="radio" name="question29" value="1"> Редко
+                <input type="radio" name="question29" value="2"> Часто
+                <input type="radio" name="question29" value="3"> Очень часто
+                <input type="radio" name="question29" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question30">30. Часто ли люди не знают элементарных понятий о компьютере (скайп, реал,
+                    серфинг в сети и т.д.)?</label>
+                <input type="radio" name="question30" value="0"> Никогда
+                <input type="radio" name="question30" value="1"> Редко
+                <input type="radio" name="question30" value="2"> Часто
+                <input type="radio" name="question30" value="3"> Очень часто
+                <input type="radio" name="question30" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question31">31. Как часто Ваши знакомые жалуются, что Вы постоянно «сидите» за
+                    компьютером?</label>
+                <input type="radio" name="question31" value="0"> Никогда
+                <input type="radio" name="question31" value="1"> Редко
+                <input type="radio" name="question31" value="2"> Часто
+                <input type="radio" name="question31" value="3"> Очень часто
+                <input type="radio" name="question31" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question32">32. Часто ли Вы задумываетесь, что хакеры, программисты очень необычные и
+                    интересные люди?</label>
+                <input type="radio" name="question32" value="0"> Никогда
+                <input type="radio" name="question32" value="1"> Редко
+                <input type="radio" name="question32" value="2"> Часто
+                <input type="radio" name="question32" value="3"> Очень часто
+                <input type="radio" name="question32" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question33">33. Часто ли Вы раздражаетесь из-за медленного соединения Интернета, когда
+                    «зависает» компьютер или «сбоит» программа?</label>
+                <input type="radio" name="question33" value="0"> Никогда
+                <input type="radio" name="question33" value="1"> Редко
+                <input type="radio" name="question33" value="2"> Часто
+                <input type="radio" name="question33" value="3"> Очень часто
+                <input type="radio" name="question33" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question34">34. Часто ли Вы прежде выполнения заданий по учебе или работе стараетесь вдоволь
+                    наиграться в компьютерные игры или сделать все самое важное в социальной сети?</label>
+                <input type="radio" name="question34" value="0"> Никогда
+                <input type="radio" name="question34" value="1"> Редко
+                <input type="radio" name="question34" value="2"> Часто
+                <input type="radio" name="question34" value="3"> Очень часто
+                <input type="radio" name="question34" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question35">35. Часто ли Вы задумываетесь о том, чтобы иметь более мощный компьютер?</label>
+                <input type="radio" name="question35" value="0"> Никогда
+                <input type="radio" name="question35" value="1"> Редко
+                <input type="radio" name="question35" value="2"> Часто
+                <input type="radio" name="question35" value="3"> Очень часто
+                <input type="radio" name="question35" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question36">36. Часто ли Вы предпочитаете телевизору компьютер?</label>
+                <input type="radio" name="question36" value="0"> Никогда
+                <input type="radio" name="question36" value="1"> Редко
+                <input type="radio" name="question36" value="2"> Часто
+                <input type="radio" name="question36" value="3"> Очень часто
+                <input type="radio" name="question36" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question37">37. Часто ли Вы чувствуете, что Интернет или компьютерные игры позволяют Вам
+                    наиболее полно и свободно показать себя, реализоваться?</label>
+                <input type="radio" name="question37" value="0"> Никогда
+                <input type="radio" name="question37" value="1"> Редко
+                <input type="radio" name="question37" value="2"> Часто
+                <input type="radio" name="question37" value="3"> Очень часто
+                <input type="radio" name="question37" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question38">38. Часто ли Вы говорите неправду о себе в Интернете?</label>
+                <input type="radio" name="question38" value="0"> Никогда
+                <input type="radio" name="question38" value="1"> Редко
+                <input type="radio" name="question38" value="2"> Часто
+                <input type="radio" name="question38" value="3"> Очень часто
+                <input type="radio" name="question38" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question39">39. Как часто Вы предпочитаете общаться в сети вместо того, чтобы встретиться с
+                    людьми?</label>
+                <input type="radio" name="question39" value="0"> Никогда
+                <input type="radio" name="question39" value="1"> Редко
+                <input type="radio" name="question39" value="2"> Часто
+                <input type="radio" name="question39" value="3"> Очень часто
+                <input type="radio" name="question39" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question40">40. Как часто Вы пытаетесь безуспешно уменьшить время, проводимое за
+                    компьютером?</label>
+                <input type="radio" name="question40" value="0"> Никогда
+                <input type="radio" name="question40" value="1"> Редко
+                <input type="radio" name="question40" value="2"> Часто
+                <input type="radio" name="question40" value="3"> Очень часто
+                <input type="radio" name="question40" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question41">41. Часто ли Вы задумываетесь о возможностях компьютерных игр, Интернета для
+                    достижения «жизненных целей»?</label>
+                <input type="radio" name="question41" value="0"> Никогда
+                <input type="radio" name="question41" value="1"> Редко
+                <input type="radio" name="question41" value="2"> Часто
+                <input type="radio" name="question41" value="3"> Очень часто
+                <input type="radio" name="question41" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question42">42. Часто ли Вы думаете связать свою профессию с работой за компьютером?</label>
+                <input type="radio" name="question42" value="0"> Никогда
+                <input type="radio" name="question42" value="1"> Редко
+                <input type="radio" name="question42" value="2"> Часто
+                <input type="radio" name="question42" value="3"> Очень часто
+                <input type="radio" name="question42" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question43">43. Как часто «страдает» Ваша учеба (работа) из-за Интернета или
+                    компьютера?</label>
+                <input type="radio" name="question43" value="0"> Никогда
+                <input type="radio" name="question43" value="1"> Редко
+                <input type="radio" name="question43" value="2"> Часто
+                <input type="radio" name="question43" value="3"> Очень часто
+                <input type="radio" name="question43" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question44">44. Часто ли Вы убеждаетесь, что в современном мире везде нужен компьютер для
+                    полноценной работы и отдыха?</label>
+                <input type="radio" name="question44" value="0"> Никогда
+                <input type="radio" name="question44" value="1"> Редко
+                <input type="radio" name="question44" value="2"> Часто
+                <input type="radio" name="question44" value="3"> Очень часто
+                <input type="radio" name="question44" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question45">45. Как часто Вы думаете, что жизнь без компьютера станет скучной, пустой и
+                    безынтересной?</label>
+                <input type="radio" name="question45" value="0"> Никогда
+                <input type="radio" name="question45" value="1"> Редко
+                <input type="radio" name="question45" value="2"> Часто
+                <input type="radio" name="question45" value="3"> Очень часто
+                <input type="radio" name="question45" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question46">46. Часто ли окружающие не понимают, насколько важно Вам завершить начатое на
+                    компьютере дело?</label>
+                <input type="radio" name="question46" value="0"> Никогда
+                <input type="radio" name="question46" value="1"> Редко
+                <input type="radio" name="question46" value="2"> Часто
+                <input type="radio" name="question46" value="3"> Очень часто
+                <input type="radio" name="question46" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question47">47. Как часто Вы прерываете переписку или не начинаете общение в Интернете с
+                    неинтересными Вам людьми?</label>
+                <input type="radio" name="question47" value="0"> Никогда
+                <input type="radio" name="question47" value="1"> Редко
+                <input type="radio" name="question47" value="2"> Часто
+                <input type="radio" name="question47" value="3"> Очень часто
+                <input type="radio" name="question47" value="4"> Всегда
+            </li>
+            <li>
+                <label for="question48">48. Часто ли компьютер помогает Вам показать свои способности в работе или
+                    учебе?</label>
+                <input type="radio" name="question48" value="0"> Никогда
+                <input type="radio" name="question48" value="1"> Редко
+                <input type="radio" name="question48" value="2"> Часто
+                <input type="radio" name="question48" value="3"> Очень часто
+                <input type="radio" name="question48" value="4"> Всегда
+            </li>
+        </ol>
+        <button type="submit">Получить результаты</button>
+    </form>
+
+    <script>
+        document.getElementById("computerAddictionTest").addEventListener("submit", function (event) {
+            event.preventDefault();
+            let formData = new FormData(this);
+            let score = 0;
+            for (let value of formData.values()) {
+                score += parseInt(value);
+            }
+            alert("Ваша оценка: " + score);
+        });
+    </script>
+
+</body>
+
+</html>
